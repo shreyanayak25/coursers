@@ -1,37 +1,91 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/shreyanayak25/coursers/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<!doctype html>
+<html>
+<head>
+    <style>
+        * {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+h1 {
+    text-align: center;
+}
+.cell {
+    border: 1px solid black;
+    background-color: gray;
+}
+.col {
+    float: left;
+    /*border: 3px solid black;
+    background-color: gray;*/
+    padding: 5px;
+    width: 100%;
+}
+.col p.colheading {
+    text-align: center;
+    margin: 0px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    width: auto;
+    padding: 5px 40px 5px 40px;
+    float: right;
+    font-size: 2em;
+    font-weight: bold;
+}
+p.text {
+    clear: both;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+@media (min-width: 992px) {
+    .col-1 {
+        width: 33%;
+    }
+    .col-2 {
+        width: 33%;
+    }
+    .col-3 {
+        width: 33%;
+    }
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-1 {
+        width: 50%;
+    }
+    .col-2 {
+        width: 50%;
+    }
+    .col-3 {
+        width: 100%;
+    }
+}
+    </style>
+</head>
+    <title>coursera assignment 2</title>
+    <body>
+        <h1>Our Menu</h1>
+        <div>
+            <section class = "col col-1">  <div class="cell">  <p class="colheading" style="background-color: pink;">Chicken</p>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                    nisi ut aliquip ex ea commodo consequat.</p></div></section>
+       
+        <section class = "col col-2"><div class="cell"><p class="colheading" style="background-color: orange;">Beef</p>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat.</p></div></section>
+       
+        <section class = "col col-3"><div class="cell"><p class="colheading" style="background-color: lightblue;">Sushi</p>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat.</p></div></section>
+        </div>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shreyanayak25/coursers/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+    </body>
+</html>
