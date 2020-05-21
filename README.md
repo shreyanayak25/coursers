@@ -4,12 +4,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
 	<title>Module 3 Solution</title>
 	<style>
-		/* Base Styles */
 
 * {
 	box-sizing: border-box;
