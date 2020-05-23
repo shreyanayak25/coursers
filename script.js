@@ -1,5 +1,3 @@
-
-
 (function() {
     var names = ["Sachin", "Sehwag", "Ms Dhoni", "Steve", "Salman", "Rahul", "Rohit", "Raina", "Uttapa", "Sunil"];
     for (var i = 0; i < names.length; i++) {
